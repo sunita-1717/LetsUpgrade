@@ -1,0 +1,45 @@
+Write a program that takes 2 inputs from the user in variable a and b.
+Based on these inputs find the output of following expressions:
+
+
+1) Floor Division :
+
+a = 15
+b = 4  
+
+c = a // b  
+
+print(a, "//", b, "=", c)  
+
+O/p : 15 // 4 = 3
+
+
+2) a power b :
+
+a = 5
+b = 2 
+
+c = a ** b  
+
+print(a, "**", b, "=", c)  
+
+O/p : 5 ** 2 = 25
+
+  -----OR-----
+
+print(4 ** 3)
+
+O/p : 64
+
+
+3) Find out whether two variables have equal value or not - if yes then print True if they are not equal then print False :
+
+a = 8
+b = 11
+
+if (a == b):
+    print("True")  
+else:
+    print("False")
+
+O/p : False
