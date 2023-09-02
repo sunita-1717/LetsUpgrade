@@ -1,0 +1,29 @@
+Write a program that takes side of a square as input and calculates the area of this square by using area() function.
+
+A)
+def area(side):
+    area = side * side
+    print("Area of square is: ",area)
+    
+side = int(input("Enter Side length: "))
+
+area(side)
+
+O/p : Enter side length:
+      8
+      Area of square is: 64
+
+-------------OR--------------
+
+B)
+def area(side):
+    area = side * side
+    return area
+    
+side = int(input("Enter Side length: "))
+
+print(area(side))
+
+O/p : Enter side length:
+      5
+      25
